@@ -39,8 +39,8 @@ target 'lung_v1' do
     pod 'OHMySQL'
 end
 ```
-## To Run this Project:
-1. Open lung_v1.xcworkspace instead of lung_v1.xcodeproj in the project folder.<br>
+## To Run this Project
+1. Open lung_v1.xcworkspace instead of lung_v1.xcodeproj in the project folder due to the use of CocoaPods.<br>
 2. Set an Apple team account in the general signing settings.<br>
 3. Connect an iPhone to Xcode, build and run this project. An iphone is required to use all features since Pedometer is not supported on iOS simulators.<br>
 4. Login using one of the following tokens and then start to use:
