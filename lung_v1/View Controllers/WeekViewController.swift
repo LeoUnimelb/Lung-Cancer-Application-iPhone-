@@ -66,7 +66,7 @@ class WeekViewController: UIViewController {
     let dateFormat: DateFormatter = DateFormatter()
     dateFormat.dateFormat = "yyyy-MM-dd 00:00:00"
     let queryDateF = dateFormat.string(from:queryDate as Date)
-    let sqlQuery = " SELECT * FROM userData5 WHERE DATE(exerciseDate) >= DATE('now', 'weekday 1', '-7 days') ORDER BY DATE(exerciseDate) ASC"
+    let sqlQuery = " SELECT * FROM userExercise WHERE DATE(exerciseDate) >= DATE('now', 'weekday 1', '-7 days') ORDER BY DATE(exerciseDate) ASC"
     let sqlWGoal = "SELECT * FROM user_AG WHERE uid = '\(userID)'"
     
     //get weekly distance target

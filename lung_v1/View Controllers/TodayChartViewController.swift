@@ -30,7 +30,7 @@ class TodayChartViewController: UIViewController {
     let dateFormat: DateFormatter = DateFormatter()
     dateFormat.dateFormat = "yyyy-MM-dd 00:00:00"
     let queryDateF = dateFormat.string(from:queryDate as Date)
-    let todayData = db.query(sql: "SELECT distance,step,duration,upstairs,downstarirs FROM userData5 WHERE exerciseDate='\(queryDateF)' ")
+    let todayData = db.query(sql: "SELECT distance,step,duration,upstairs,downstarirs FROM userExercise WHERE exerciseDate='\(queryDateF)' ")
     if todayData.count>0{
       print("\(todayData)")
       let row = todayData[0]
