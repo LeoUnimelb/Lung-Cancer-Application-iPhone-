@@ -1,5 +1,5 @@
 # Lung-Cancer-Application
-This is developed for COMP90055 Computing Project by LE XI.
+This is developed for COMP90055 Computing Project (25 Credit Points) by LE XI.
 
 ## Features
 Help patients to:
