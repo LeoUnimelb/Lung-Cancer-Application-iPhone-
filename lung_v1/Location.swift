@@ -1,5 +1,5 @@
 //
-//  Forecast.swift
+//  Location.swift
 //  Test
 //
 //  Created by XILE on 1/5/18.
